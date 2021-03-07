@@ -28,6 +28,7 @@ X_test = sc.transform(X_test)
 print(X_train)
 print(X_test)
 
+
 # Training the SVM model on the Training set
 from sklearn.svm import SVC
 classifier = SVC(kernel = 'linear', random_state = 0)
